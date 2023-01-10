@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+.header {
+ display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(62, 111, 64);
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 18px 0px;
+
+ 
+}
+.header-logo{
+  color: rgb(239, 15, 15);
+
+}
+.title{
+  color:rgb(216, 156, 156)
+}
+.items {
+ display: flex;
+ list-style: none;
+ 
+  
+
+}
+ul li{
+  padding: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: red;
+
+}
